@@ -1,0 +1,19 @@
+<?xml version="1.0"?> 
+<robot name="ball">
+    <!-- Colors --> 
+    <material name="black"> 
+        <color rgba="0 0 0 1"/>
+    </material>
+
+
+    <!-- Base Link  of Car --> 
+    <link name="base_link">
+        <visual> 
+            <geometry> 
+                <sphere radius="1.0"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link> 
+  
+</robot>

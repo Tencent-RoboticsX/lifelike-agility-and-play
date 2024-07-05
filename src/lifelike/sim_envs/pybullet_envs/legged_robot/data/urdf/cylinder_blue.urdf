@@ -1,0 +1,45 @@
+<?xml version="1.0"?> 
+<robot name="ball">
+    <!-- Colors --> 
+    <material name="black"> 
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+
+
+    <!-- Base Link  of Car --> 
+    <link name="base_link">
+        <visual> 
+            <geometry> 
+                <cylinder length="5.0" radius="0.5"/>
+            </geometry>
+            <origin rpy="0 1.57 0" xyz="-2.5 0 0"/>
+            <material name="blue"/>
+        </visual>
+    </link>
+
+    <link name="child_link1">
+        <visual>
+            <geometry>
+                <cylinder length="5.0" radius="0.5"/>
+            </geometry>
+            <origin rpy="0 1.57 0" xyz="2.5 0 0"/>
+            <material name="red"/>
+        </visual>
+    </link>
+
+    <joint name="child1_to_base" type="fixed">
+        <parent link="base_link"/>
+        <child link="child_link1"/>
+        <origin xyz="0.0 0.0 0.0"/>
+    </joint>
+
+  
+</robot>

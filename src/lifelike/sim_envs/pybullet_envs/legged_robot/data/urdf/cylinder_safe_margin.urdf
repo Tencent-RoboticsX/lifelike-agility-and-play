@@ -1,0 +1,71 @@
+<?xml version="0.0" ?>
+<robot name="cylinder">
+    <link name="cylinder1">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 -1.57" />
+            <geometry>
+                <mesh filename="package://scene/meshes/cylinder1.stl" scale="0.8 0.8 0.8"/>
+            </geometry>
+            <material name="red">
+                <color rgba="1.0 1.0 1.0 0.4"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 -1.57"/>
+            <geometry>
+                <mesh filename="package://scene/meshes/cylinder1.stl" scale="0.8 0.8 0.8"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="cylinder2">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 -1.57" />
+            <geometry>
+                <mesh filename="package://scene/meshes/cylinder2.stl" scale="0.8 0.8 0.8"/>
+            </geometry>
+            <material name="red">
+                <color rgba="1.0 1.0 1.0 0.4"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 -1.57"/>
+            <geometry>
+                <mesh filename="package://scene/meshes/cylinder2.stl" scale="0.8 0.8 0.8"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="cylinder3">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 -1.57" />
+            <geometry>
+                <mesh filename="package://scene/meshes/cylinder3.stl" scale="0.8 0.8 0.8"/>
+            </geometry>
+            <material name="red">
+                <color rgba="1.0 1.0 1.0 0.4"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 -1.57"/>
+            <geometry>
+                <mesh filename="package://scene/meshes/cylinder3.stl" scale="0.8 0.8 0.8"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="joint_12" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="cylinder1"/>
+        <child link="cylinder2"/>
+    </joint>
+
+    <joint name="joint_23" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="cylinder2"/>
+        <child link="cylinder3"/>
+    </joint>
+</robot>

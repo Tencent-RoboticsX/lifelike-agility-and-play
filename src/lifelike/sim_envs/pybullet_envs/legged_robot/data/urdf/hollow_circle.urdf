@@ -1,0 +1,31 @@
+<?xml version="0.0" ?>
+<robot name="hollow_circle">
+    <link name="hollow_circle">
+        <contact>
+            <lateral_friction value="1"/>
+        </contact>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="0.0"/>
+            <inertia ixx="0"  ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://scene/meshes/hollow_circle.STL"/>
+            </geometry>
+            <material name="Cyan">
+                <color rgba="0 1.0 1.0 1.0"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://scene/meshes/hollow_circle.STL"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>

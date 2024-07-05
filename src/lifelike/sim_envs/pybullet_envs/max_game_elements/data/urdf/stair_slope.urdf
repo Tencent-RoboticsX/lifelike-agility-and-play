@@ -1,0 +1,33 @@
+<?xml version="0.0" ?>
+<robot name="stair_slope">
+    <link cancave='yes' name="stair_slope_link">
+        <contact>
+            <lateral_friction value="1.0"/>
+        </contact>
+
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <mass value="0.0"/>
+            <inertia ixx="0"  ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+        </inertial>
+
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 -1.57" />
+            <geometry>
+                <mesh filename="package://scene/meshes/stair_slope.stl" scale="0.9 0.9 0.7"/>
+                <!-- <mesh filename="package://scene/meshes/stair_slope.stl"/> -->
+            </geometry>
+            <material name="Cyan">
+                <color rgba="0 1.0 1.0 1.0"/>
+            </material>
+        </visual>
+
+        <collision concave='yes'>
+            <origin xyz="0 0 0" rpy="0 0 -1.57"/>
+            <geometry>
+                <mesh filename="package://scene/meshes/stair_slope.stl" scale="0.9 0.9 0.7"/>
+                <!-- <mesh filename="package://scene/meshes/stair_slope.stl"/> -->
+            </geometry>
+        </collision>
+    </link>
+</robot>
