@@ -3,7 +3,7 @@ This repository contains all the source codes and dataset for "Lifelike Agility 
 
 ## Setup
 To run the codes, you will need Python3.6 or Python3.7 to install tensorflow 1.15.0, and the [TLeague](https://github.com/tencent-ailab/tleague) and [TPolicies](https://github.com/tencent-ailab/TPolicies) repositories, which are developed for distributed multi-agent RL.
-For more details, please refer to the TLeague [paper](https://arxiv.org/abs/2011.12895).
+For more details, please refer to the TLeague [paper](https://arxiv.org/abs/2011.12895) or its [project page](https://github.com/tencent-ailab/tleague_projpage).
 
 Please follow these steps to setup the environments:
 
@@ -68,7 +68,7 @@ Open Terminal 4 and run
 bash example_pmc_train.sh actor
 ```
 
-To train EPMC and SEPMC, you can simply follow the steps of PMC and just replace `example_pmc_train.sh' with 'example_epmc_train.sh' and 'example_epmc_train.sh'. Note that you can launch multiple actors in a distributed manner to fast generate data samples.
+To train EPMC and SEPMC, you can simply follow the steps of PMC and just replace `example_pmc_train.sh' with 'example_epmc_train.sh' and 'example_sepmc_train.sh'. Note that you can launch multiple actors in a distributed manner to fast generate data samples.
 
 ## Motion Capture Data
 The motion capture data is obtained from a medium-sized Labrador Retriever. The motions include walking, running, jumping, playing, and sitting. The original data is located in `data/raw_mocap_data`. For tracking with a quadrupedal robot, we retargeted the data and generated a mirrored version, which are located in `data/mocap_data`.
