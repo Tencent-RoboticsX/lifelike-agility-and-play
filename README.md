@@ -16,7 +16,7 @@ cd ..
 cd TPolicies
 pip install -e .
 cd ..
-cd lifelike
+cd lifelike-agility-and-play 
 pip install -e .
 ```
 
