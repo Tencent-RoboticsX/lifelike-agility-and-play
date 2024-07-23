@@ -1,21 +1,86 @@
-MIT License
+Tencent is pleased to support the open source community by making lifelike available. 
 
-Copyright (c) 2024 Tencent
+Copyright (C) 2024 THL A29 Limited, a Tencent company.  All rights reserved. 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+lifelike is licensed under the MIT License except for the third-party components listed below.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Terms of the MIT License:
+--------------------------------------------------------------------
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+Other dependencies and licenses:
+
+
+Open Source Software Licensed under the Zlib License and Other Licenses of the Third-Party Components therein:
+--------------------------------------------------------------------
+1. pybullet
+Copyright (c)
+AMD
+Apple
+Yunfei Bai
+Steve Baker
+Gino van den Bergen
+Jeff Bingham
+Nicola Candussi
+Erin Catto
+Lawrence Chai
+Erwin Coumans
+Disney Animation
+Benjamin Ellenberger
+Christer Ericson
+Google
+Dirk Gregorius
+Marcus Hennix
+Jasmine Hsu
+MBSim Development Team
+Takahiro Harada
+Simon Hobbs
+John Hsu
+Ole Kniemeyer
+Jay Lee
+Francisco Leon
+lunkhound
+Vsevolod Klementjev
+Phil Knight
+John McCutchan
+Steven Peters
+Roman Ponomarev
+Nathanael Presson
+Gabor PUHR
+Arthur Shek
+Russel Smith
+Sony
+Jakub Stephien
+Marten Svanfeldt
+Jie Tan
+Pierre Terdiman
+Steven Thompson
+Tamas Umenhoffer
+（See AUTHORS.txt）
+
+Terms of the Zlib License:
+--------------------------------------------------------------------
+The files in this repository are licensed under the zlib license, except for the files under 'Extras' and examples/ThirdPartyLibs.
+
+Bullet Continuous Collision Detection and Physics Library
+http://bulletphysics.org
+
+This software is provided 'as-is', without any express or implied warranty.
+In no event will the authors be held liable for any damages arising from the use of this software.
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it freely,
+subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+For the license of other third party components, please refer to the following URL:
+https://github.com/bulletphysics/bullet3/blob/e73de6ea00c4fc8f4717bee0dc705799e3ce27ff/LICENSE.txt
