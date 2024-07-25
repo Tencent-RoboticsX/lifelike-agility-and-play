@@ -83,7 +83,8 @@ If you find the codes and dataset in this repo useful for your research, please 
       year={2024},
       journal={Nature Machine Intelligence},
       publisher={Nature Publishing Group UK London},
-      volume={7},
+      volume={6},
+      pages={787–798},
       doi = {10.1038/s42256-024-00861-3},
       url = {https://www.nature.com/articles/s42256-024-00861-3},
 }
